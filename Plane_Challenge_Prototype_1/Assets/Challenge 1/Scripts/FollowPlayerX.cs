@@ -18,5 +18,6 @@ public class FollowPlayerX : MonoBehaviour
     void Update()
     {
         transform.position = plane.transform.position + offset;
+       // transform.rotation = plane.transform.rotation;
     }
 }
